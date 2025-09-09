@@ -1,0 +1,17 @@
+{
+  "node": {
+    "4018895ee872d864b4321d7dbe62b5aadfee5c7a71": {
+      "workers": {
+        "app/chatbot/page": {
+          "moduleId": "[project]/.next-internal/server/app/chatbot/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/answer-new-joiner-question.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/chatbot/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "pWQtJbj+ORYbA4tA+1CbSxU3c2qEEf/U4YyAW+l1go0="
+}

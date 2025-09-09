@@ -1,0 +1,48 @@
+
+export const learningPathsData = {
+    backend: [
+      { id: "java", title: "Java & OOP Refresher", description: "Collections, streams, exception handling.", image: "https://picsum.photos/400/200?grayscale&random=1", aiHint: "java code", type: "Internal Doc", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+      { id: "spring", title: "Spring Boot Fundamentals", description: "REST APIs, dependency injection, JPA/Hibernate.", image: "https://picsum.photos/400/200?grayscale&random=2", aiHint: "spring boot", type: "Video Course", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+      { id: "db", title: "Database & ORM", description: "SQL basics, schema design, JPA queries.", image: "https://picsum.photos/400/200?grayscale&random=3", aiHint: "database schema", type: "Book", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+      { id: "microservices", title: "Microservices", description: "Service discovery, configuration, inter-service communication.", image: "https://picsum.photos/400/200?grayscale&random=4", aiHint: "network architecture", type: "Article", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+      { id: "testing", title: "Testing with JUnit & Mockito", description: "Learn how to write effective unit tests.", image: "https://picsum.photos/400/200?grayscale&random=5", aiHint: "testing code", type: "Tutorial", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+      { id: "api", title: "APIs & Integration", description: "Swagger/OpenAPI, Postman, REST standards.", image: "https://picsum.photos/400/200?grayscale&random=6", aiHint: "api integration", type: "Documentation", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+      { id: "sensor", title: "Sensor Data Context", description: "Data models for oilfield/factory sensors.", image: "https://picsum.photos/400/200?grayscale&random=7", aiHint: "industrial sensor", type: "Wiki", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+    ],
+    frontend: [
+        { id: "ts", title: "TypeScript Basics", description: "Variables, types, interfaces, classes.", image: "https://picsum.photos/400/200?grayscale&random=8", aiHint: "typescript code", type: "Video Course", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "angular", title: "Angular Fundamentals", description: "Components, modules, services, routing.", image: "https://picsum.photos/400/200?grayscale&random=9", aiHint: "angular logo", type: "Book", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "ui-state", title: "UI & State Management", description: "RxJS, forms, Angular Material.", image: "https://picsum.photos/400/200?grayscale&random=10", aiHint: "state management", type: "Internal Doc", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "api-integration", title: "API Integration", description: "HttpClient, error handling, observables.", image: "https://picsum.photos/400/200?grayscale&random=11", aiHint: "api integration", type: "Article", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "testing-fe", title: "Testing with Jasmine & Karma", description: "Learn how to test your Angular components.", image: "https://picsum.photos/400/200?grayscale&random=12", aiHint: "testing code", type: "Tutorial", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "dashboards", title: "Sensor Dashboards", description: "Domain knowledge on sensor dashboards & visualizations.", image: "https://picsum.photos/400/200?grayscale&random=13", aiHint: "dashboard chart", type: "Wiki", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+    ],
+    qa: [
+        { id: "manual-testing", title: "Manual Testing", description: "Test case design, test plans.", image: "https://picsum.photos/400/200?grayscale&random=14", aiHint: "test plan", type: "Video Course", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "automation", title: "Automation Tools", description: "Selenium/WebDriver, JUnit/TestNG.", image: "https://picsum.photos/400/200?grayscale&random=15", aiHint: "automation robot", type: "Book", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "api-testing", title: "API Testing", description: "Postman, REST Assured.", image: "https://picsum.photos/400/200?grayscale&random=16", aiHint: "api testing", type: "Internal Doc", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "ci-cd", title: "CI/CD Integration", description: "Jenkins/GitHub Actions.", image: "https://picsum.photos/400/200?grayscale&random=17", aiHint: "pipeline automation", type: "Article", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "sensor-domain", title: "Sensor Data Domain", description: "Understanding sensor data accuracy & thresholds.", image: "https://picsum.photos/400/200?grayscale&random=18", aiHint: "industrial sensor", type: "Wiki", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+    ],
+    devops: [
+        { id: "linux", title: "Linux & Shell Scripting", description: "Core concepts for server management.", image: "https://picsum.photos/400/200?grayscale&random=19", aiHint: "linux terminal", type: "Video Course", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "ci-cd-pipelines", title: "CI/CD Pipelines", description: "Jenkins/GitHub Actions.", image: "https://picsum.photos/400/200?grayscale&random=20", aiHint: "pipeline automation", type: "Book", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "docker", title: "Containerization", description: "Docker, Docker Compose.", image: "https://picsum.photos/400/200?grayscale&random=21", aiHint: "docker logo", type: "Internal Doc", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "k8s", title: "Orchestration with Kubernetes", description: "The basics of K8s.", image: "https://picsum.photos/400/200?grayscale&random=22", aiHint: "kubernetes logo", type: "Article", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "monitoring", title: "Monitoring & Logging", description: "ELK, Prometheus, Grafana.", image: "https://picsum.photos/400/200?grayscale&random=23", aiHint: "monitoring dashboard", type: "Tutorial", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "cloud-security", title: "Cloud & Security", description: "AWS/Azure/GCP basics.", image: "https://picsum.photos/400/200?grayscale&random=24", aiHint: "cloud security", type: "Wiki", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+    ],
+    'data-science': [
+        { id: "big-data", title: "Big Data Concepts", description: "Streams vs batch processing.", image: "https://picsum.photos/400/200?grayscale&random=25", aiHint: "big data", type: "Video Course", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "flink", title: "Apache Flink", description: "DataStream API, windowing, checkpoints.", image: "https://picsum.photos/400/200?grayscale&random=26", aiHint: "data stream", type: "Book", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "kafka", title: "Kafka/Messaging Basics", description: "Understanding message queues.", image: "https://picsum.photos/400/200?grayscale&random=27", aiHint: "kafka logo", type: "Internal Doc", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "ds-essentials", title: "Data Science Essentials", description: "Pandas, NumPy, scikit-learn.", image: "https://picsum.photos/400/200?grayscale&random=28", aiHint: "python data", type: "Article", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "viz", title: "Visualization", description: "Matplotlib/Seaborn.", image: "https://picsum.photos/400/200?grayscale&random=29", aiHint: "data visualization", type: "Tutorial", href: "https://www.udem.com/course/aws-certified-cloud-practitioner-new/" },
+        { id: "ds-domain", title: "Domain Knowledge", description: "Sensor anomalies, predictive maintenance.", image: "https://picsum.photos/400/200?grayscale&random=30", aiHint: "industrial sensor", type: "Wiki", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+    ],
+    default: [
+      { id: "agile-scrum", title: "Agile & Scrum Fundamentals", description: "How our team works and manages projects.", image: "https://picsum.photos/400/200?grayscale&random=31", aiHint: "agile board", type: "Wiki", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+      { id: "cicd", title: "CI/CD with GitHub Actions", description: "An overview of our deployment pipeline.", image: "https://picsum.photos/400/200?grayscale&random=32", aiHint: "automation pipeline", type: "Internal Doc", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+      { id: "values", title: "Molex Company Values", description: "Understanding the core values of Molex.", image: "https://picsum.photos/400/200?grayscale&random=33", aiHint: "corporate values", type: "Presentation", href: "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" },
+    ]
+  };
